@@ -3,13 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to uchino-it's documentation!
+manual of unino-it
 =====================================
 
 .. toctree::
+   :numbered:
    :maxdepth: 2
    :caption: Contents:
 
+   names/index
+   trouble/index
+   weather/index
 
 
 Indices and tables
