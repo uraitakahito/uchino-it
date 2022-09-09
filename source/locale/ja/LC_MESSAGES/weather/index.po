@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../source/weather/index.rst:2
 msgid "How to check the weather forecast"
-msgstr ""
+msgstr "天気予報を調べる"
 

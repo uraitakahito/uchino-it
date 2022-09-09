@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/index.rst:7
 msgid "manual of unino-it"
-msgstr ""
+msgstr "うちのITマニュアル"
 
 #: ../../source/index.rst:20
 msgid "Indices and tables"

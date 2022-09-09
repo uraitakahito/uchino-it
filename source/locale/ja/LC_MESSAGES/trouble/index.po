@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../source/trouble/index.rst:2
 msgid "Trouble"
-msgstr ""
+msgstr "困ったとき"
 
 #: ../../source/trouble/index.rst:6
 msgid "You want to display the Home screen"
-msgstr ""
+msgstr "ホームスクリーンを表示したい"
 
 #: ../../source/trouble/index.rst:10
 msgid "When you lose internet connection"
-msgstr ""
+msgstr "インターネットに繋がらない"
 

@@ -19,30 +19,31 @@ msgstr ""
 
 #: ../../source/names/index.rst:2
 msgid "Names of parts and operation methods"
-msgstr ""
+msgstr "各部と操作の名前"
 
 #: ../../source/names/index.rst:6
 msgid "Name of parts"
-msgstr ""
+msgstr "各部の名前"
 
 #: ../../source/names/index.rst:9
 msgid "Home button"
-msgstr ""
+msgstr "ホームボタン"
 
 #: ../../source/names/index.rst:10
 msgid ""
 "The circular button is be below the screen on the front. It is called a "
 ":guilabel:`Home button`. No matter what you're doing, you can press the "
 ":guilabel:`Home button`` at any time to display the Home screen."
-msgstr ""
+msgstr "全面のスクリーンの下に丸いボタンがあります。:guilabel:`ホームボタン` という名前です。"
+"どんな問題が起こっても、:guilabel:`ホームボタン` を押せばホームスクリーンに戻れます。"
 
 #: ../../source/names/index.rst:16
 msgid "Basic touchscreen gestures in Pages on iPhone"
-msgstr ""
+msgstr "iPhoneのタッチスクリーンジェスチャの基本"
 
 #: ../../source/names/index.rst:18
 msgid ""
 "`Click here <https://support.apple.com/guide/pages-iphone/basic-"
 "touchscreen-gestures-tan72489b52/ios>`"
-msgstr ""
+msgstr "`ここをタップ <https://support.apple.com/ja-jp/guide/pages-iphone/tan72489b52/ios>`_"
 
