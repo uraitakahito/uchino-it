@@ -14,6 +14,7 @@ manual of unino-it
    names/index
    trouble/index
    weather/index
+   credits/index
 
 
 Indices and tables
