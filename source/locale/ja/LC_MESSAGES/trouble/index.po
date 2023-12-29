@@ -27,5 +27,5 @@ msgstr "ホームスクリーンを表示したい"
 
 #: ../../source/trouble/index.rst:10
 msgid "When you lose internet connection"
-msgstr "インターネットに繋がらない"
+msgstr "インターネットに繋がらない場合"
 
