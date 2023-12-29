@@ -23,7 +23,7 @@ msgstr "困ったとき"
 
 #: ../../source/trouble/index.rst:6
 msgid "You want to display the Home screen"
-msgstr "ホームスクリーンを表示したい"
+msgstr "元の画面(ホームスクリーン)を表示したい"
 
 #: ../../source/trouble/index.rst:10
 msgid "When you lose internet connection"
