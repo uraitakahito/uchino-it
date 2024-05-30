@@ -8,6 +8,7 @@ You want to display the Home screen
 iPadの下についてる丸いボタン(ホームボタンと言います)を押してください。
 
 .. image:: ./ipad-home-button.png
+   :scale: 50%
 
 ************************************
 When you lose internet connection
@@ -16,9 +17,10 @@ When you lose internet connection
 インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。
 ルーターと繋がっているかは、画面の右上にある
 
-.. image:: ./iphone-with-wifi.png
+.. image:: ../_static/ipad-home-wifi.jpg
+   :scale: 20%
 
-扇のようなこのマークが出てたら繋がります。
+扇のようなこのマークが出てたらWiFiというインターネットの入り口に繋がります。下の画像は画面の右上にあったWiFiのマークを拡大表示したものです。
 
 .. image:: ./wifi.png
 
