@@ -8,6 +8,7 @@ You want to display the Home screen
 iPadの下についてる丸いボタン(ホームボタンと言います)を押してください。
 
 .. image:: ./ipad-home-button.png
+   :scale: 50%
 
 ************************************
 When you lose internet connection
