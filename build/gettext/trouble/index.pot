@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uchino-it \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-09 23:54+0900\n"
+"POT-Creation-Date: 2024-05-31 01:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,22 @@ msgstr ""
 msgid "You want to display the Home screen"
 msgstr ""
 
-#: ../../source/trouble/index.rst:10
+#: ../../source/trouble/index.rst:8
+msgid "iPadの下についてる丸いボタン(ホームボタンと言います)を押してください。"
+msgstr ""
+
+#: ../../source/trouble/index.rst:15
 msgid "When you lose internet connection"
+msgstr ""
+
+#: ../../source/trouble/index.rst:17
+msgid "インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。 ルーターと繋がっているかは、画面の右上にある"
+msgstr ""
+
+#: ../../source/trouble/index.rst:23
+msgid "扇のようなこのマークが出てたらWiFiというインターネットの入り口に繋がります。下の画像は画面の右上にあったWiFiのマークを拡大表示したものです。"
+msgstr ""
+
+#: ../../source/trouble/index.rst:28
+msgid "このマークが出てない時は連絡ください。"
 msgstr ""
