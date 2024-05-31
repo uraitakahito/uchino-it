@@ -29,7 +29,7 @@ msgstr "元の画面(ホームスクリーン)を表示したい"
 msgid ""
 "Please press the round button at the bottom of the iPad (it's called the "
 "Home button)."
-msgstr ""
+msgstr "iPadの下についてる丸いボタン(ホームボタンと言います)を押してください。"
 
 #: ../../source/trouble/index.rst:15
 msgid "When you lose internet connection"
@@ -40,15 +40,15 @@ msgid ""
 "When connecting to the internet, you first need to go through a device "
 "called a router. You can check if you are connected to the router by "
 "looking at the internet icon at the top right corner of the screen."
-msgstr ""
+msgstr "インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。ルーターと繋がっているかは、画面の右上のWiFiアイコンで確認ができます。"
 
 #: ../../source/trouble/index.rst:24
 msgid ""
 "The image below is an enlarged view of the WiFi icon that was at the top "
 "right corner of the screen."
-msgstr ""
+msgstr "下の画像は画面の右上にあったWiFiのマークを拡大表示したものです。"
 
 #: ../../source/trouble/index.rst:29
 msgid "Please contact me if this icon does not appear."
-msgstr ""
+msgstr "このマークが出てない時は僕に連絡してください。"
 
