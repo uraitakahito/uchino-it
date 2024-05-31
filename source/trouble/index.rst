@@ -5,7 +5,7 @@ Trouble
 You want to display the Home screen
 ************************************
 
-iPadの下についてる丸いボタン(ホームボタンと言います)を押してください。
+Please press the round button at the bottom of the iPad (it's called the Home button).
 
 .. image:: ./ipad-home-button.png
    :scale: 50%
@@ -14,15 +14,16 @@ iPadの下についてる丸いボタン(ホームボタンと言います)を�
 When you lose internet connection
 ************************************
 
-インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。
-ルーターと繋がっているかは、画面の右上にある
+When connecting to the internet, you first need to go through a device called a router.
+You can check if you are connected to the router by looking at the internet icon at the
+top right corner of the screen.
 
 .. image:: ../_static/ipad-home-wifi.jpg
    :scale: 20%
 
-扇のようなこのマークが出てたらWiFiというインターネットの入り口に繋がります。下の画像は画面の右上にあったWiFiのマークを拡大表示したものです。
+The image below is an enlarged view of the WiFi icon that was at the top right corner
+of the screen.
 
 .. image:: ./wifi.png
 
-
-このマークが出てない時は連絡ください。
+Please contact me if this icon does not appear.
