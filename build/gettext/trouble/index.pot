@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uchino-it \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 01:17+0900\n"
+"POT-Creation-Date: 2024-05-31 11:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "You want to display the Home screen"
 msgstr ""
 
 #: ../../source/trouble/index.rst:8
-msgid "iPadの下についてる丸いボタン(ホームボタンと言います)を押してください。"
+msgid "Please press the round button at the bottom of the iPad (it's called the Home button)."
 msgstr ""
 
 #: ../../source/trouble/index.rst:15
@@ -33,13 +33,13 @@ msgid "When you lose internet connection"
 msgstr ""
 
 #: ../../source/trouble/index.rst:17
-msgid "インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。 ルーターと繋がっているかは、画面の右上にある"
+msgid "When connecting to the internet, you first need to go through a device called a router. You can check if you are connected to the router by looking at the internet icon at the top right corner of the screen."
 msgstr ""
 
-#: ../../source/trouble/index.rst:23
-msgid "扇のようなこのマークが出てたらWiFiというインターネットの入り口に繋がります。下の画像は画面の右上にあったWiFiのマークを拡大表示したものです。"
+#: ../../source/trouble/index.rst:24
+msgid "The image below is an enlarged view of the WiFi icon that was at the top right corner of the screen."
 msgstr ""
 
-#: ../../source/trouble/index.rst:28
-msgid "このマークが出てない時は連絡ください。"
+#: ../../source/trouble/index.rst:29
+msgid "Please contact me if this icon does not appear."
 msgstr ""
