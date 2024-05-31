@@ -13,6 +13,7 @@ manual of unino-it
 
    names/index
    trouble/index
+   youtube/index
    weather/index
    credits/index
 
