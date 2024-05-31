@@ -1,3 +1,5 @@
 .doctrees
 *.mo
+build/html
+build/latex
 doctrees
