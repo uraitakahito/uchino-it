@@ -16,26 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:9
-msgid "Contents:"
+#: ../../source/credits/index.rst:2
+msgid "Credits"
 msgstr ""
 
-#: ../../source/index.rst:7
-msgid "manual of unino-it"
-msgstr ""
-
-#: ../../source/index.rst:22
-msgid "Indices and tables"
-msgstr ""
-
-#: ../../source/index.rst:24
-msgid ":ref:`genindex`"
-msgstr ""
-
-#: ../../source/index.rst:25
-msgid ":ref:`modindex`"
-msgstr ""
-
-#: ../../source/index.rst:26
-msgid ":ref:`search`"
+#: ../../source/credits/index.rst:4
+msgid "WiFi画像は `カクレノ <https://kotonohaworks.com/free-icons/wi-fi/>`_ 様にお借りしました。"
 msgstr ""
