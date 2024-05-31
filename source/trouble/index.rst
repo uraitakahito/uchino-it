@@ -14,9 +14,7 @@ Please press the round button at the bottom of the iPad (it's called the Home bu
 When you lose internet connection
 ************************************
 
-When connecting to the internet, you first need to go through a device called a router.
-You can check if you are connected to the router by looking at the internet icon at the
-top right corner of the screen.
+When connecting to the internet, you first need to go through a device called a router. You can check if you are connected to the router by looking at the WiFi icon at the top right corner of the screen.
 
 .. image:: ../_static/ipad-home-wifi.jpg
    :scale: 20%
