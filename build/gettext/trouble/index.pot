@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uchino-it \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 15:28+0900\n"
+"POT-Creation-Date: 2024-06-22 17:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,13 +33,25 @@ msgid "When you lose internet connection"
 msgstr ""
 
 #: ../../source/trouble/index.rst:17
-msgid "When connecting to the internet, you first need to go through a device called a router. You can check if you are connected to the router by looking at the WiFi icon at the top right corner of the screen."
+msgid "When connecting to the internet, you first need to go through a device called a router."
 msgstr ""
 
-#: ../../source/trouble/index.rst:22
+#: ../../source/trouble/index.rst:19
+msgid "You can check if you are connected to the router by looking at the WiFi icon at the top right corner of the screen."
+msgstr ""
+
+#: ../../source/trouble/index.rst:24
 msgid "The image below is an enlarged view of the WiFi icon that was at the top right corner of the screen."
 msgstr ""
 
-#: ../../source/trouble/index.rst:27
+#: ../../source/trouble/index.rst:29
 msgid "Please contact me if this icon does not appear."
+msgstr ""
+
+#: ../../source/trouble/index.rst:33
+msgid "I want to adjust the volume"
+msgstr ""
+
+#: ../../source/trouble/index.rst:38
+msgid "There are buttons to adjust the volume at the location of the arrow."
 msgstr ""
