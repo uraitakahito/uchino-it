@@ -60,5 +60,5 @@ msgstr "元の画面(ホームスクリーン)を表示したい"
 
 #: ../../source/trouble/index.rst:36
 msgid "There are buttons to adjust the volume at the location of the arrow."
-msgstr ""
+msgstr "音量を調節するボタンは矢印のところにあります。"
 
