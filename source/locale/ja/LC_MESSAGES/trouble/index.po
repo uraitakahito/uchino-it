@@ -39,14 +39,14 @@ msgstr "インターネットに繋がらない場合"
 msgid ""
 "When connecting to the internet, you first need to go through a device "
 "called a router."
-msgstr ""
+msgstr "インターネットに繋ぐときは、まずルーターと呼ばれる機器に繋ぐ必要があります。"
 
 #: ../../source/trouble/index.rst:19
 #, fuzzy
 msgid ""
 "You can check if you are connected to the router by looking at the WiFi "
 "icon at the top right corner of the screen."
-msgstr "インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。ルーターと繋がっているかは、画面の右上のWiFiアイコンで確認ができます。"
+msgstr "ルーターと繋がっているかは、画面の右上のWiFiアイコンで確認ができます。"
 
 #: ../../source/trouble/index.rst:24
 msgid ""
