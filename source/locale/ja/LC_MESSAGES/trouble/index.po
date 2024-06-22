@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uchino-it \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-22 17:25+0900\n"
+"POT-Creation-Date: 2024-06-22 17:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,29 +36,34 @@ msgid "When you lose internet connection"
 msgstr "インターネットに繋がらない場合"
 
 #: ../../source/trouble/index.rst:17
-#, fuzzy
 msgid ""
 "When connecting to the internet, you first need to go through a device "
-"called a router. You can check if you are connected to the router by "
-"looking at the WiFi icon at the top right corner of the screen."
+"called a router."
+msgstr ""
+
+#: ../../source/trouble/index.rst:19
+#, fuzzy
+msgid ""
+"You can check if you are connected to the router by looking at the WiFi "
+"icon at the top right corner of the screen."
 msgstr "インターネットに接続するときは、ルーターという機器を通して初めてつなぐことができます。ルーターと繋がっているかは、画面の右上のWiFiアイコンで確認ができます。"
 
-#: ../../source/trouble/index.rst:22
+#: ../../source/trouble/index.rst:24
 msgid ""
 "The image below is an enlarged view of the WiFi icon that was at the top "
 "right corner of the screen."
 msgstr "下の画像は画面の右上にあったWiFiのマークを拡大表示したものです。"
 
-#: ../../source/trouble/index.rst:27
+#: ../../source/trouble/index.rst:29
 msgid "Please contact me if this icon does not appear."
 msgstr "このマークが出てない時は僕に連絡してください。"
 
-#: ../../source/trouble/index.rst:31
+#: ../../source/trouble/index.rst:33
 #, fuzzy
 msgid "I want to adjust the volume"
 msgstr "元の画面(ホームスクリーン)を表示したい"
 
-#: ../../source/trouble/index.rst:36
+#: ../../source/trouble/index.rst:38
 msgid "There are buttons to adjust the volume at the location of the arrow."
 msgstr "音量を調節するボタンは矢印のところにあります。"
 
