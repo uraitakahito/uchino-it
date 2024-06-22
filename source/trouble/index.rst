@@ -25,3 +25,12 @@ of the screen.
 .. image:: ./wifi.png
 
 Please contact me if this icon does not appear.
+
+************************************
+I want to adjust the volume
+************************************
+
+.. image:: ../_static/ipad-volume.png
+   :scale: 20%
+
+There are buttons to adjust the volume at the location of the arrow.
