@@ -61,7 +61,7 @@ msgstr "このマークが出てない時は僕に連絡してください。"
 #: ../../source/trouble/index.rst:33
 #, fuzzy
 msgid "I want to adjust the volume"
-msgstr "元の画面(ホームスクリーン)を表示したい"
+msgstr "音量を調整したい。"
 
 #: ../../source/trouble/index.rst:38
 msgid "There are buttons to adjust the volume at the location of the arrow."
