@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uchino-it \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 15:28+0900\n"
+"POT-Creation-Date: 2024-06-22 17:25+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,4 +42,12 @@ msgstr ""
 
 #: ../../source/trouble/index.rst:27
 msgid "Please contact me if this icon does not appear."
+msgstr ""
+
+#: ../../source/trouble/index.rst:31
+msgid "I want to adjust the volume"
+msgstr ""
+
+#: ../../source/trouble/index.rst:36
+msgid "There are buttons to adjust the volume at the location of the arrow."
 msgstr ""
