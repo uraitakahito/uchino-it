@@ -14,6 +14,7 @@ manual of unino-it
    names/index
    trouble/index
    youtube/index
+   alarm/index
    weather/index
    credits/index
 
