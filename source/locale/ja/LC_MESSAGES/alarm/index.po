@@ -19,29 +19,29 @@ msgstr ""
 
 #: ../../source/alarm/index.rst:2
 msgid "Alarm Clock"
-msgstr ""
+msgstr "目覚まし時計"
 
 #: ../../source/alarm/index.rst:4
 msgid "Tap the icon labeled 'Clock'."
-msgstr ""
+msgstr "「時計」と書かれたアイコンをタップしてください。"
 
 #: ../../source/alarm/index.rst:9
 msgid "Tap the icon labeled 'Alarm'."
-msgstr ""
+msgstr "「アラーム」と書かれたアイコンをタップしてください。"
 
 #: ../../source/alarm/index.rst:14
 msgid "To set the alarm for tomorrow, turn the switch ON."
-msgstr ""
+msgstr "もし明日目覚ましを鳴らしたいなら、スイッチをオンにしてください。"
 
 #: ../../source/alarm/index.rst:19
 msgid "The switch will turn green when it's ON."
-msgstr ""
+msgstr "スイッチは緑の状態がオンです。"
 
 #: ../../source/alarm/index.rst:27
 msgid "If you want to change the time for the alarm, tap the time."
-msgstr ""
+msgstr "もし目覚ましを鳴らす時刻を変えたいなら、時刻をタップしてください。"
 
 #: ../../source/alarm/index.rst:32
 msgid "Set the time and tap 'Save' in the top right corner."
-msgstr ""
+msgstr "鳴らしたい時刻を設定して右上にある「保存」をタップしてください。"
 
