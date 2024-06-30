@@ -16,26 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:9
-msgid "Contents:"
+#: ../../source/alarm/index.rst:2
+msgid "Alarm Clock"
 msgstr ""
 
-#: ../../source/index.rst:7
-msgid "manual of unino-it"
+#: ../../source/alarm/index.rst:4
+msgid "Tap the icon labeled 'Clock'."
 msgstr ""
 
-#: ../../source/index.rst:23
-msgid "Indices and tables"
+#: ../../source/alarm/index.rst:9
+msgid "Tap the icon labeled 'Alarm'."
 msgstr ""
 
-#: ../../source/index.rst:25
-msgid ":ref:`genindex`"
+#: ../../source/alarm/index.rst:14
+msgid "To set the alarm for tomorrow, turn the switch ON."
 msgstr ""
 
-#: ../../source/index.rst:26
-msgid ":ref:`modindex`"
+#: ../../source/alarm/index.rst:19
+msgid "The switch will turn green when it's ON."
 msgstr ""
 
-#: ../../source/index.rst:27
-msgid ":ref:`search`"
+#: ../../source/alarm/index.rst:27
+msgid "If you want to change the time for the alarm, tap the time."
+msgstr ""
+
+#: ../../source/alarm/index.rst:32
+msgid "Set the time and tap 'Save' in the top right corner."
 msgstr ""
