@@ -6,25 +6,35 @@
 
 ### Pipenvを使う場合
 
+Dockerイメージを作成してコンテナを動かします。
+
 ```console
-% pipenv install
-% pipenv run make html
+% PROJECT=$(basename `pwd`)
+% docker image build -t $PROJECT-image . --build-arg user_id=`id -u` --build-arg group_id=`id -g`
+% docker container run -it --rm --init --mount type=bind,src=`pwd`,dst=/app --name $PROJECT-container $PROJECT-image /bin/zsh
+```
+
+Docker上でSphinxを実行します。
+
+```console
+$ pipenv install
+$ pipenv run make html
 ```
 
 一連のPortable Object Template/Portable Object/HTMLを作る手順は次
 
 ```console
-% pipenv run make gettext
-% pipenv run sphinx-intl update --language=ja
+$ pipenv run make gettext
+$ pipenv run sphinx-intl update --language=ja
 ```
 
 できたPOの翻訳をした後、
 
 ```console
-% pipenv run make html -e SPHINXOPTS='-D language="ja"'
+$ pipenv run make html -e SPHINXOPTS='-D language="ja"'
 ```
 
-### Dockerを使う場合
+### PublicなDockerイメージを使う場合
 
 ```console
 % docker run --rm -v /path/to/uchino-it:/docs sphinxdoc/sphinx make html
