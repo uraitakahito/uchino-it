@@ -3,7 +3,7 @@ Contacts
 
 To register a contact, tap the phone icon.
 
-.. image:: ./tel-icon.webp
+.. image:: ./tel-icon.png
    :scale: 50%
 
 Tap the 'i' next to the phone number you want to register. Be careful not to tap the number itself, as this will make a call.
