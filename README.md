@@ -17,21 +17,21 @@ Dockerイメージを作成してコンテナを動かします。
 Docker上でSphinxを実行します。
 
 ```console
-$ pipenv install
-$ pipenv run make html
+$ poetry install
+$ poetry run make html
 ```
 
 一連のPortable Object Template/Portable Object/HTMLを作る手順は次
 
 ```console
-$ pipenv run make gettext
-$ pipenv run sphinx-intl update --language=ja
+$ poetry run make gettext
+$ poetry run sphinx-intl update --language=ja
 ```
 
 できたPOの翻訳をした後、
 
 ```console
-$ pipenv run make html -e SPHINXOPTS='-D language="ja"'
+$ poetry run make html -e SPHINXOPTS='-D language="ja"'
 ```
 
 ### PublicなDockerイメージを使う場合
