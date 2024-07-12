@@ -38,6 +38,34 @@ COPY docker-entrypoint.sh /usr/local/bin/
 COPY zshrc-entrypoint-init.d /etc/zshrc-entrypoint-init.d
 
 #
+# sphinx - pdf
+#   https://github.com/sphinx-doc/sphinx-docker-images/blob/master/latexpdf/Dockerfile
+#
+RUN apt-get update -qq && \
+  apt-get upgrade -y -qq && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends \
+    graphviz \
+    imagemagick \
+    make \
+    \
+    latexmk \
+    lmodern \
+    fonts-freefont-otf \
+    texlive-latex-recommended \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    texlive-fonts-extra \
+    texlive-lang-cjk \
+    texlive-lang-chinese \
+    texlive-lang-japanese \
+    texlive-luatex \
+    texlive-xetex \
+    xindy \
+    tex-gyre && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/*
+
+#
 # Add user and install basic tools.
 #
 RUN cd /usr/src && \
