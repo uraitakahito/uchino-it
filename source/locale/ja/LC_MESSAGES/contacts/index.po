@@ -21,33 +21,33 @@ msgstr ""
 
 #: ../../source/contacts/index.rst:2
 msgid "Contacts"
-msgstr ""
+msgstr "連絡先の登録の仕方"
 
 #: ../../source/contacts/index.rst:4
 msgid "To register a contact, tap the phone icon."
-msgstr ""
+msgstr "連絡先を登録するために、電話のアイコンをタップしてください。"
 
 #: ../../source/contacts/index.rst:9
 msgid ""
 "Tap the 'i' next to the phone number you want to register. Be careful not"
 " to tap the number itself, as this will make a call."
-msgstr ""
+msgstr "電話番号の隣にあるiのアイコンをタップしてください。この時、電話番号をタップしてしまうと電話をかけてしまうので間違えないようにタップしてください。"
 
 #: ../../source/contacts/index.rst:14
 msgid "Once the detail screen is displayed, please scroll down."
-msgstr ""
+msgstr "詳細画面が表示されたら、画面の下の方にスクロールしてください。"
 
 #: ../../source/contacts/index.rst:19
 msgid "Tap 'Create new contact'."
-msgstr ""
+msgstr "「新規連絡先を作成」をタップしてください。"
 
 #: ../../source/contacts/index.rst:24
 msgid "Please enter the name."
-msgstr ""
+msgstr "連絡先に登録する相手の名前を入力してください。"
 
 #: ../../source/contacts/index.rst:29
 msgid ""
 "Once you've filled in the necessary fields, tap 'Done' at the top right "
 "of the screen."
-msgstr ""
+msgstr "必要な項目を入力し終わったら、「完了」をタップしてください。"
 
