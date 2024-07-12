@@ -39,6 +39,7 @@ COPY zshrc-entrypoint-init.d /etc/zshrc-entrypoint-init.d
 
 #
 # sphinx - pdf
+#   https://github.com/sphinx-doc/sphinx-docker-images/blob/master/latexpdf/Dockerfile
 #
 RUN apt-get update -qq && \
   apt-get upgrade -y -qq && \
