@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the uchino-it package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uchino-it \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-12 15:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/contacts/index.rst:2
+msgid "Contacts"
+msgstr "連絡先の登録の仕方"
+
+#: ../../source/contacts/index.rst:4
+msgid "To register a contact, tap the phone icon."
+msgstr "連絡先を登録するために、電話のアイコンをタップしてください。"
+
+#: ../../source/contacts/index.rst:9
+msgid ""
+"Tap the 'i' next to the phone number you want to register. Be careful not"
+" to tap the number itself, as this will make a call."
+msgstr "電話番号の隣にあるiのアイコンをタップしてください。この時、電話番号をタップしてしまうと電話をかけてしまうので間違えないようにタップしてください。"
+
+#: ../../source/contacts/index.rst:14
+msgid "Once the detail screen is displayed, please scroll down."
+msgstr "詳細画面が表示されたら、画面の下の方にスクロールしてください。"
+
+#: ../../source/contacts/index.rst:19
+msgid "Tap 'Create new contact'."
+msgstr "「新規連絡先を作成」をタップしてください。"
+
+#: ../../source/contacts/index.rst:24
+msgid "Please enter the name."
+msgstr "連絡先に登録する相手の名前を入力してください。"
+
+#: ../../source/contacts/index.rst:29
+msgid ""
+"Once you've filled in the necessary fields, tap 'Done' at the top right "
+"of the screen."
+msgstr "必要な項目を入力し終わったら、「完了」をタップしてください。"
+

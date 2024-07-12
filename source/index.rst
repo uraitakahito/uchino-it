@@ -13,6 +13,7 @@ manual of unino-it
 
    names/index
    trouble/index
+   contacts/index
    youtube/index
    alarm/index
    weather/index
