@@ -49,9 +49,11 @@ RUN cd /usr/src && \
     /usr/src/features/src/common-utils/install.sh
 USER ${user_name}
 
-# https://github.com/sphinx-doc/sphinx-docker-images/blob/master/base/Dockerfile
+#
+# poetry
+#
 RUN pip install --no-cache-dir --upgrade pip && \
-  pip install --no-cache-dir pipenv Sphinx==7.3.7 Pillow
+  pip install --no-cache-dir poetry
 
 #
 # dotfiles
