@@ -1,0 +1,5 @@
+[tool.poetry]
+#
+# Use Poetry only for dependency management but not for packaging
+#   https://python-poetry.org/docs/basic-usage/#operating-modes
+package-mode = false
