@@ -34,6 +34,12 @@ $ poetry run sphinx-intl update --language=ja
 $ poetry run make html -e SPHINXOPTS='-D language="ja"'
 ```
 
+PDFを出力する場合
+
+```console
+$ poetry run make latexpdf -e SPHINXOPTS='-D language="ja"'
+```
+
 ### PublicなDockerイメージを使う場合
 
 ```console
