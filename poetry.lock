@@ -136,6 +136,20 @@ files = [
 ]
 
 [[package]]
+name = "click"
+version = "8.1.7"
+description = "Composable command line interface toolkit"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "click-8.1.7-py3-none-any.whl", hash = "sha256:ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"},
+    {file = "click-8.1.7.tar.gz", hash = "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"},
+]
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -428,6 +442,21 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "setuptools"
+version = "70.3.0"
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "setuptools-70.3.0-py3-none-any.whl", hash = "sha256:fe384da74336c398e0d956d1cae0669bc02eed936cdb1d49b57de1990dc11ffc"},
+    {file = "setuptools-70.3.0.tar.gz", hash = "sha256:f171bab1dfbc86b132997f26a119f6056a57950d058587841a0082e8830f9dc5"},
+]
+
+[package.extras]
+doc = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "pyproject-hooks (!=1.1)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-inline-tabs", "sphinx-lint", "sphinx-notfound-page (>=1,<2)", "sphinx-reredirects", "sphinxcontrib-towncrier"]
+test = ["build[virtualenv] (>=1.0.3)", "filelock (>=3.4.0)", "importlib-metadata", "ini2toml[lite] (>=0.14)", "jaraco.develop (>=7.21)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "jaraco.test", "mypy (==1.10.0)", "packaging (>=23.2)", "pip (>=19.1)", "pyproject-hooks (!=1.1)", "pytest (>=6,!=8.1.*)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-home (>=0.5)", "pytest-mypy", "pytest-perf", "pytest-ruff (>=0.3.2)", "pytest-subprocess", "pytest-timeout", "pytest-xdist (>=3)", "tomli", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel"]
+
+[[package]]
 name = "snowballstemmer"
 version = "2.2.0"
 description = "This package provides 29 stemmers for 28 languages generated from Snowball algorithms."
@@ -473,6 +502,26 @@ tomli = {version = ">=2", markers = "python_version < \"3.11\""}
 docs = ["sphinxcontrib-websupport"]
 lint = ["flake8 (>=3.5.0)", "importlib_metadata", "mypy (==1.9.0)", "pytest (>=6.0)", "ruff (==0.3.7)", "sphinx-lint", "tomli", "types-docutils", "types-requests"]
 test = ["cython (>=3.0)", "defusedxml (>=0.7.1)", "pytest (>=6.0)", "setuptools (>=67.0)"]
+
+[[package]]
+name = "sphinx-intl"
+version = "2.2.0"
+description = "Sphinx utility that make it easy to translate and to apply translation."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "sphinx_intl-2.2.0-py3-none-any.whl", hash = "sha256:56ad5f360fae4aa1cb963448c802f141b55c87223bb32a7b29e936620bd1a381"},
+    {file = "sphinx_intl-2.2.0.tar.gz", hash = "sha256:66976a85d31624dfcb564059a6918f90b31669269bfe3f30b2d72e81f225ab20"},
+]
+
+[package.dependencies]
+babel = "*"
+click = "*"
+setuptools = "*"
+sphinx = "*"
+
+[package.extras]
+test = ["mock", "pytest"]
 
 [[package]]
 name = "sphinxcontrib-applehelp"
@@ -614,4 +663,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9"
-content-hash = "393e1afa461d126f6352d0da47770527ba0bdc641a278992aabf7434ffa65f60"
+content-hash = "bcda2849650fea885a590b05a95f9cabba90d7a18ba5504ae49873fae9dc87a8"

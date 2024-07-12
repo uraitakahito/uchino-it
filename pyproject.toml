@@ -8,3 +8,4 @@ package-mode = false
 python = ">=3.9"
 sphinx = "^7.3.7"
 pillow = "^10.4.0"
+sphinx-intl = "^2.2.0"
