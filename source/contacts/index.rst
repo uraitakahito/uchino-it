@@ -28,5 +28,5 @@ Please enter the name.
 
 Once you've filled in the necessary fields, tap 'Done' at the top right of the screen.
 
-.. image:: ./contact-detail-3.jpg
+.. image:: ./contact-detail-4.jpg
    :scale: 50%
