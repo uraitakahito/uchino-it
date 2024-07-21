@@ -11,6 +11,9 @@ The circular button is be below the screen on the front.
 It is called a :guilabel:`Home button`.
 No matter what you're doing, you can press the :guilabel:`Home button`` at any time to display the Home screen.
 
+.. image:: ./home-button.png
+   :scale: 50%
+
 **********************************************
 Basic touchscreen gestures in Pages on iPhone
 **********************************************

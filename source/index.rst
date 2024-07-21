@@ -16,6 +16,7 @@ manual of unino-it
    contacts/index
    youtube/index
    alarm/index
+   line/index
    weather/index
    credits/index
 

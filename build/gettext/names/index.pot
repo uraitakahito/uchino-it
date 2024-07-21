@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uchino-it \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-09 23:54+0900\n"
+"POT-Creation-Date: 2024-07-21 01:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,10 +32,10 @@ msgstr ""
 msgid "The circular button is be below the screen on the front. It is called a :guilabel:`Home button`. No matter what you're doing, you can press the :guilabel:`Home button`` at any time to display the Home screen."
 msgstr ""
 
-#: ../../source/names/index.rst:16
+#: ../../source/names/index.rst:19
 msgid "Basic touchscreen gestures in Pages on iPhone"
 msgstr ""
 
-#: ../../source/names/index.rst:18
+#: ../../source/names/index.rst:21
 msgid "`Click here <https://support.apple.com/guide/pages-iphone/basic-touchscreen-gestures-tan72489b52/ios>`"
 msgstr ""
