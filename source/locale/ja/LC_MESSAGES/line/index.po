@@ -21,51 +21,51 @@ msgstr ""
 
 #: ../../source/line/index.rst:2
 msgid "line"
-msgstr ""
+msgstr "ライン"
 
 #: ../../source/line/index.rst:6
 msgid "How to make a voice call"
-msgstr ""
+msgstr "音声通話のかけ方"
 
 #: ../../source/line/index.rst:8 ../../source/line/index.rst:42
 msgid "Please tap the LINE icon."
-msgstr ""
+msgstr "LINEのアイコンをタップしてください。"
 
 #: ../../source/line/index.rst:13 ../../source/line/index.rst:47
 msgid "Please tap the Chat icon."
-msgstr ""
+msgstr "トークのアイコンをタップしてください。"
 
 #: ../../source/line/index.rst:18 ../../source/line/index.rst:52
 msgid ""
 "Please tap the name of the person you want to call. The chat screen with "
 "that persion will open."
-msgstr ""
+msgstr "音声通話をかけたい相手の名前をタップしてください。相手とのトーク画面が開きます。"
 
 #: ../../source/line/index.rst:26
 msgid "Please tap the receiver icon at the top right."
-msgstr ""
+msgstr "右上の受話器のアイコンをタップしてください。"
 
 #: ../../source/line/index.rst:31
 msgid "Please tap the displayed voice call option."
-msgstr ""
+msgstr "表示された音声通話をタップしてください。"
 
 #: ../../source/line/index.rst:38
 msgid "How to chat"
-msgstr ""
+msgstr "チャットの仕方"
 
 #: ../../source/line/index.rst:40
 msgid "It's almost the same as making a voice call."
-msgstr ""
+msgstr "音声通話とほぼ同じです。"
 
 #: ../../source/line/index.rst:60
 msgid ""
 "Please enter the text you want to send in the text input field at the "
 "bottom of the screen."
-msgstr ""
+msgstr "画面下にあるテキスト入力欄に、相手に送りたい文章を入力してください。"
 
 #: ../../source/line/index.rst:65
 msgid ""
 "After finishing the input, please tap the blue arrow on the right side of"
 " the screen. The message will be sent to the recipient."
-msgstr ""
+msgstr "入力を終えたら、画面右にある青い矢印をタップしてください。相手にメッセージが送信されます。"
 
