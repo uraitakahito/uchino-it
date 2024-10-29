@@ -1,41 +1,60 @@
-# Debian 12
-FROM python:3.12.4-bookworm
+# Debian 12.7
+FROM debian:bookworm-20241016
 
 ARG user_name=developer
 ARG user_id
 ARG group_id
 ARG dotfiles_repository="https://github.com/uraitakahito/dotfiles.git"
+ARG features_repository="https://github.com/uraitakahito/features.git"
+ARG extra_utils_repository="https://github.com/uraitakahito/extra-utils.git"
+ARG python_version=3.12.5
 
+#
+# Git
+#
 RUN apt-get update -qq && \
-  apt-get upgrade -y -qq && \
-  DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends \
+  apt-get install -y -qq --no-install-recommends \
     ca-certificates \
     git && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
 #
-# Install packages
+# clone features
 #
-RUN apt-get update -qq && \
-  apt-get upgrade -y -qq && \
-  DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends \
-    # Basic
-    iputils-ping \
-    # Editor
-    vim emacs \
-    # Utility
-    tmux \
-    # fzf needs PAGER(less or something)
-    fzf \
-    exa \
-    trash-cli && \
-  apt-get clean && \
-  rm -rf /var/lib/apt/lists/*
+RUN cd /usr/src && \
+  git clone --depth 1 ${features_repository}
 
-COPY docker-entrypoint.sh /usr/local/bin/
+#
+# Add user and install common utils.
+#
+RUN USERNAME=${user_name} \
+    USERUID=${user_id} \
+    USERGID=${group_id} \
+    CONFIGUREZSHASDEFAULTSHELL=true \
+    UPGRADEPACKAGES=false \
+      /usr/src/features/src/common-utils/install.sh
 
-COPY zshrc-entrypoint-init.d /etc/zshrc-entrypoint-init.d
+#
+# Install extra utils.
+#
+RUN cd /usr/src && \
+  git clone --depth 1 ${extra_utils_repository} && \
+  ADDEZA=true \
+  UPGRADEPACKAGES=false \
+    /usr/src/extra-utils/install.sh
+
+#
+# Install Python
+#   https://github.com/uraitakahito/features/blob/mymain/src/python/install.sh
+#
+# see also:
+#   https://github.com/uraitakahito/features/blob/426e14ecbc3df89ea63f7b3b0a3721f2960f119a/src/python/install.sh#L667-L670
+ENV PATH=$PATH:/usr/local/python/current/bin
+
+RUN USERNAME=${user_name} \
+    VERSION=${python_version} \
+      /usr/src/features/src/python/install.sh
 
 #
 # sphinx - pdf
@@ -66,22 +85,14 @@ RUN apt-get update -qq && \
   rm -rf /var/lib/apt/lists/*
 
 #
-# Add user and install basic tools.
-#
-RUN cd /usr/src && \
-  git clone --depth 1 https://github.com/uraitakahito/features.git && \
-  USERNAME=${user_name} \
-  USERUID=${user_id} \
-  USERGID=${group_id} \
-  CONFIGUREZSHASDEFAULTSHELL=true \
-    /usr/src/features/src/common-utils/install.sh
-USER ${user_name}
-
-#
 # poetry
 #
 RUN pip install --no-cache-dir --upgrade pip && \
   pip install --no-cache-dir poetry
+
+COPY docker-entrypoint.sh /usr/local/bin/
+
+USER ${user_name}
 
 #
 # dotfiles
