@@ -8,4 +8,20 @@ YouTube icon
 赤いアイコンをタップしてください。
 
 .. image:: ./youtube-icon.png
-   :scale: 40%
+   :scale: 20%
+
+虫眼鏡のアイコンをタップしてください。
+
+.. image:: ./search.jpg
+   :scale: 30%
+
+例えば大谷翔平の動画を見たい場合は、入力欄に「おおたにしょうへい」と入力します。
+恐らく途中でおすすめのキーワードが補完されるので、その中から観たい動画をタップします。
+
+.. image:: ./ootani.jpg
+   :scale: 30%
+
+すると観たい動画が観れます。
+
+.. image:: ./result.jpg
+   :scale: 20%
