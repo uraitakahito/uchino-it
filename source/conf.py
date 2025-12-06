@@ -61,3 +61,59 @@ html_static_path = ['_static']
 # Sphinx document translation with sphinx gettext feature uses these settings:
 locale_dirs = ['locale/']
 gettext_compact = False
+
+
+# -- Options for LaTeX output ------------------------------------------------
+
+latex_elements = {
+    # A4用紙
+    'papersize': 'a4paper',
+
+    # ベースは14pt（LaTeX標準の最大値）
+    'pointsize': '14pt',
+
+    # 章開始を片面でもOKに
+    'extraclassoptions': 'openany',
+
+    # LaTeXプリアンブル
+    'preamble': r'''
+        % フォントサイズを1.5倍に拡大（14pt × 1.5 = 21pt相当）
+        \makeatletter
+        \renewcommand{\normalsize}{\fontsize{21pt}{25pt}\selectfont}
+        \renewcommand{\small}{\fontsize{18pt}{22pt}\selectfont}
+        \renewcommand{\footnotesize}{\fontsize{15pt}{18pt}\selectfont}
+        \renewcommand{\large}{\fontsize{25pt}{30pt}\selectfont}
+        \renewcommand{\Large}{\fontsize{30pt}{36pt}\selectfont}
+        \renewcommand{\LARGE}{\fontsize{36pt}{43pt}\selectfont}
+        \renewcommand{\huge}{\fontsize{43pt}{52pt}\selectfont}
+        \renewcommand{\Huge}{\fontsize{50pt}{60pt}\selectfont}
+        \makeatother
+        \normalsize
+
+        % 行間1.8倍
+        \usepackage{setspace}
+        \setstretch{1.8}
+
+        % 余白設定（geometryは既に読み込まれているので\geometryで設定変更）
+        \geometry{top=25mm, bottom=25mm, left=20mm, right=20mm}
+
+        % 段落間スペース
+        \setlength{\parskip}{1.5em}
+
+        % 見出しを大きく（titlesecは既に読み込まれている）
+        \titleformat{\chapter}{\Huge\bfseries}{\thechapter}{1em}{}
+        \titleformat{\section}{\LARGE\bfseries}{\thesection}{1em}{}
+        \titleformat{\subsection}{\Large\bfseries}{\thesubsection}{1em}{}
+
+        % シンプルなヘッダー・フッター（fancyhdrは既に読み込まれている）
+        \pagestyle{fancy}
+        \fancyhf{}
+        \fancyfoot[C]{\Large\thepage}
+        \renewcommand{\headrulewidth}{0pt}
+
+        % 画像の最大高さを制限（縦長画像がページに収まるように）
+        \makeatletter
+        \setlength{\spx@image@maxheight}{0.7\textheight}
+        \makeatother
+    ''',
+}
