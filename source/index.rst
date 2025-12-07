@@ -11,6 +11,7 @@ manual of unino-it
    :maxdepth: 2
    :caption: Contents:
 
+   usage-hours/index
    telephone/index
    names/index
    trouble/index
