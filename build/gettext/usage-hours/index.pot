@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the uchino-it package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uchino-it \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 01:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/usage-hours/index.rst:2
+msgid "usage-hours"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:6
+msgid "About Usage Hours"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:8
+msgid "This iPad is used in a hospital, so there are restrictions on usage hours."
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:12
+msgid "Daily Usage Limit"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:14
+msgid "You can use this iPad for up to **16 hours per day**."
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:18
+msgid "Hours When Usage is Not Allowed"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:20
+msgid "You cannot use this iPad from **10:00 PM (22:00)** to **6:00 AM (06:00)**."
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:22
+msgid "Please refrain from using the iPad during lights-out hours."
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:26
+msgid "Usage Hours Guide"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:28
+msgid "Available Hours"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:32
+msgid "Time"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:33
+msgid "Available"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:34
+msgid "Notes"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:35
+msgid "6:00 AM - 10:00 PM"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:36
+msgid "OK"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:37
+msgid "You can use up to 16 hours total during this period"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:38
+msgid "10:00 PM - 6:00 AM"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:39
+msgid "Not Available"
+msgstr ""
+
+#: ../../source/usage-hours/index.rst:40
+msgid "Lights-out / Sleeping hours"
+msgstr ""
